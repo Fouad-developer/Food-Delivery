@@ -34,5 +34,9 @@ Seamless shopping cart experience:
 - Multiple payment methods (Credit/Debit Card highlighted)  
 - Prominent red "Order Now" CTA for quick checkout
 
-<img src="images/8.jpg" width="360" alt="Food cart and checkout view">
+## Screenshots
+
+| Order                        | Cart Screen                  |
+|------------------------------|------------------------------|
+| ![Home](images/8.png) | ![Cart](images/9.png) |
 >>>>>>> 588e4ef543a5187fa14a6ffdc232dc86e1aa0697
