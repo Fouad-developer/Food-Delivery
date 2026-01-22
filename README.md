@@ -38,5 +38,5 @@ Seamless shopping cart experience:
 
 | Order                        | Cart Screen                  |
 |------------------------------|------------------------------|
-| ![Home](images/8.png) | ![Cart](images/9.png) |
+| ![Home](images/8.jpg) | ![Cart](images/9.jpg) |
 >>>>>>> 588e4ef543a5187fa14a6ffdc232dc86e1aa0697
