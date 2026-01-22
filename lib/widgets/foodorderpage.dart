@@ -24,14 +24,14 @@ class Foodorderpage extends StatefulWidget {
 class _FoodCartScreenState extends State<Foodorderpage> {
   final List<CartItem> cartItems = [
     CartItem(
-      name: 'Grilled Meat',
-      price: 250,
+      name: 'Mixed Grilled Meats',
+      price: 13,
       imageUrl: 'images/ic_popular_food_6.png',
     ),
     CartItem(
-      name: 'Meat Ve_getables',
-      price: 100,
-      imageUrl: 'images/ic_popular_food_4.png',
+      name: 'Breakfast Meal',
+      price: 5,
+      imageUrl: 'images/ic_popular_food_1.png',
       quantity: 3,
     ),
   ];

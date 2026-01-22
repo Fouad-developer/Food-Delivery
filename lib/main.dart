@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:food_delivery/pages/homep.dart';
-import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());

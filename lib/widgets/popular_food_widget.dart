@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +11,7 @@ class Data {
 class PopularFoodWidget extends StatelessWidget {
   PopularFoodWidget({super.key});
   final List<Data> Menudata = [
-    Data(price: "\$5", name: "Breakfast Burger", img: "ic_popular_food_1"),
+    Data(price: "\$5", name: "Breakfast Meal", img: "ic_popular_food_1"),
     Data(name: "hearty pasta", img: "ic_popular_food_3", price: "\$7"),
     Data(name: "Grilled Salmon Salad", img: "ic_popular_food_5", price: "\$9"),
     Data(name: "Mixed Grilled Meats", img: "ic_popular_food_6", price: "\$13"),

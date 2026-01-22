@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class Data {
@@ -10,11 +9,11 @@ class Data {
 class Topmenu extends StatelessWidget {
   Topmenu({super.key});
   final List<Data> Menudata = [
-    Data(name: "burger", img: "1"),
-    Data(name: "pizza", img: "11"),
-    Data(name: "beverage", img: "16"),
-    Data(name: "cake", img: "2"),
-    Data(name: "ice cream", img: "8"),
+    Data(name: "burger", img: "burger"),
+    Data(name: "pizza", img: "pizza"),
+    Data(name: "beverage", img: "baverage"),
+    Data(name: "cake", img: "cake"),
+    Data(name: "ice cream", img: "icecream"),
    
   ];
   @override

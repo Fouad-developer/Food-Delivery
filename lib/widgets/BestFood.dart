@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/pages/animation/scale_route.dart';
-import 'package:food_delivery/pages/homep.dart';
 import 'package:food_delivery/widgets/fooddetailsfood.dart';
 
 class Data_b {
@@ -32,7 +31,7 @@ class BestFoods extends StatelessWidget {
                 Navigator.push(
                     context,
                     ScaleRoute(
-                        page: Fooddetailsfood(
+                        page: const Fooddetailsfood(
                       
                     )
                     )
@@ -47,7 +46,7 @@ class BestFoods extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius:
                         BorderRadius.circular(10), // Rounded corners
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
                         color: Color(0xfffae3e2),
                         blurRadius: 10, // Blur effect
@@ -60,7 +59,7 @@ class BestFoods extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10),
                       child: Image.asset(
-                        "images/" + elem.img + ".jpeg",
+                        "images/${elem.img}.jpeg",
                         height: 250,
                         fit: BoxFit.cover,
                       ),

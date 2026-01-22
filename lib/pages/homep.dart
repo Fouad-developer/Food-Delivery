@@ -1,10 +1,7 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:food_delivery/widgets/BestFood.dart';
 import 'package:food_delivery/widgets/Topmenu.dart';
-import 'package:food_delivery/widgets/fooddetailsfood.dart';
 import 'package:food_delivery/widgets/popular_food_widget.dart';
 
 class Homep extends StatelessWidget {
